@@ -14,11 +14,17 @@
   "dependencies": {
     "css-loader": "^4.3.0",
     "jest-junit": "^11.1.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "style-loader": "^1.2.1",
     "webpack-cli": "^3.3.12",
-    "cypress": "^9.5.0"
+    "cypress": "^9.5.0",
+
+    /* ✨ REQUIRED FOR ACCIOJOB PROJECT */
+    "react-router-dom": "5.3.4",
+    "redux": "^4.2.1",
+    "react-redux": "^7.2.6",
+    "@reduxjs/toolkit": "^1.9.5"
   },
   "jest": {
     "moduleNameMapper": {
@@ -46,9 +52,10 @@
     "enzyme-to-json": "^3.5.0",
     "html-webpack-plugin": "^4.5.0",
     "jest": "^26.4.2",
-    "react-test-renderer": "^16.13.1",
+    "react-test-renderer": "16.13.1",
     "webpack": "^4.44.2",
     "webpack-dev-server": "^3.11.0",
     "xml-js": "^1.6.11"
   }
 }
+
